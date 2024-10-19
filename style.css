@@ -431,7 +431,7 @@ h5{
 
   
 
-@media only screen and (max-width: 325px) {
+@media only screen and (max-width: 600px) {
 
  #popular{
   flex-direction: column;
@@ -466,7 +466,7 @@ h5{
 .pic1{
   margin: 0%;
   float: left;
-  margin-bottom: 6%;
+  margin-bottom: 6px;
 }
 
 .offer{
