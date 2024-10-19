@@ -132,12 +132,12 @@ body{
 }
 
 .pic1{
-   background: hsla(0, 22%, 82%, 0.919);
+   background: hsla(0, 56%, 51%, 0.919);
    margin-right: 40px;
 }
 
 .pic2{
-   background: hsla(0, 22%, 82%, 0.919);
+   background: hsla(0, 56%, 51%, 0.919);
 }
 
 .buy{
@@ -430,14 +430,8 @@ h5{
   }
 
   
-  body{
-    background: pink;
-  }
 
 @media only screen and (max-width: 600px) {
- body{
-  background: blue;
- }  
 
  #popular{
   flex-direction: column;
@@ -472,12 +466,14 @@ h5{
 .pic1{
   margin: 0%;
   float: left;
+  margin-bottom: 6%;
 }
 
 .offer{
   width: 200px;
   margin-top: 30%;
   margin-bottom: 30%;
+  align-items: center;
 }
 
 .spacial-add{
