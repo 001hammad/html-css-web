@@ -82,7 +82,7 @@ body{
 
 .left-container{
     align-items: center;
-    display: block;
+    
     padding-left: 100px;
     margin-top: 80px;
 }
@@ -167,7 +167,6 @@ body{
     display: flex;
     justify-content: center;
     padding: 12px;
-    margin-top: 0%;
 }
 
 .brand-name{
@@ -212,6 +211,7 @@ h5{
     border: 2px solid black;
     border-bottom-color: white;
     margin-right: 6px;
+    display: flex;
 }
 .shoe-3:hover{
   border: 2px solid black;
@@ -270,6 +270,7 @@ h5{
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
     padding: auto;
+    display: flex;
   }
 
   .daam{
@@ -323,8 +324,7 @@ h5{
 
   .footer{
     background: rgb(206, 48, 48);
-    max-height: 500px;
-    min-height: 50px;
+    height: 300px;
     display: flex;
     gap: 14%;
     color: white;
@@ -384,6 +384,7 @@ h5{
     height: 25px;
     border: 1px dashed black;
     background-color: rgb(212, 193, 193);
+    
   }
 
 
@@ -427,3 +428,92 @@ h5{
   .bxs-right-arrow-alt{
     color: black;
   }
+
+  
+  body{
+    background: pink;
+  }
+
+@media only screen and (max-width: 600px) {
+ body{
+  background: blue;
+ }  
+
+ #popular{
+  flex-direction: column;
+ }
+ 
+ .navbar{
+  display: grid;
+ }
+
+ .icon-div{
+  flex-direction: column;
+  padding-left: 30px;
+ }
+
+ #main{
+
+  justify-content: center;
+  gap: 40px
+}
+
+.left-container{
+  align-items: center;
+  padding-left: 30px;
+  margin-top: 80px;
+}
+
+.feature-pics{
+  flex-direction: column;
+  justify-content: left;
+}
+
+.pic1{
+  margin: 0%;
+  float: left;
+}
+
+.offer{
+  width: 200px;
+  margin-top: 30%;
+  margin-bottom: 30%;
+}
+
+.spacial-add{
+  height: 200px;
+  width: 300px;
+}
+
+.footer{
+  /* padding: 30px; */
+  flex-direction: column;
+  gap: 2%;
+  margin-top: 2%;
+  height: 800px;
+  width: 100%;
+}
+
+.end-point{
+  justify-content: center;
+  /* margin-top: 20px; */
+  /* text-overflow: none; */
+  flex-direction: column;
+  padding: 30px;
+}
+
+.mainshoes{
+  height: 300px;
+}
+
+.product-1{
+  height: 200px;
+  width: 250px;
+  
+}
+.product-2{
+  height: 190px;
+  width: 250px;
+  
+}
+}
