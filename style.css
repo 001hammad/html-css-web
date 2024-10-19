@@ -1,0 +1,429 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background: transparent;
+    color: #444;
+  }
+
+
+  .logo{
+    width: 20%;
+  }
+
+
+  .search{
+    margin-right: 300px;
+  }
+  
+  .bx-search{
+    margin-right: 3px;
+  }
+
+
+.menu{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+
+.menu li{
+    margin-right: 20px;
+}
+
+.heart{
+    margin-left: 10px;
+    font-size: large;
+    color: red;
+    cursor: pointer;
+}
+
+.home:hover{
+  color: red;
+  cursor: pointer;
+}
+.pages:hover{
+  color: red;
+  cursor: pointer;
+}
+.shop:hover{
+  color: red;
+  cursor: pointer;
+}
+.blog:hover{
+  color: red;
+  cursor: pointer;
+}
+.gallery:hover{
+  color: red;
+  cursor: pointer;
+}
+
+.bag{
+    font-size: large;
+    color: red;
+    cursor: pointer;
+}
+
+
+body{
+    background: white;
+}
+
+.mainshoes{
+    height: 400px;
+    float: right;
+    display: inline;
+    margin-top: 10px;
+}
+
+.left-container{
+    align-items: center;
+    display: block;
+    padding-left: 100px;
+    margin-top: 80px;
+}
+
+.heading-1{
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.heading-2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.para{
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn{
+    background: black;
+    color: white;
+    padding: 9px;
+    margin-top: 4px;
+    border: none;
+}
+
+.btn:hover{
+  background: rgb(177, 55, 55);
+}
+
+.feature-pics{
+    display: flex;
+    margin-top: 30%;
+    justify-content: center;
+}
+
+.product-1{
+    height: 300px;
+    width: 450px;
+    
+}
+
+
+.product-2{
+    height: 300px;
+    width: 450px;
+}
+
+.pic1{
+   background: hsla(0, 22%, 82%, 0.919);
+   margin-right: 40px;
+}
+
+.pic2{
+   background: hsla(0, 22%, 82%, 0.919);
+}
+
+.buy{
+    color: white;
+    background: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    border: none;
+    border-radius: 9px;
+}
+.buy:hover{
+  background: rgb(209, 70, 70);
+}
+
+#buynow-div{
+    padding: 20px;
+}
+
+
+#pics{
+    height: 200px;
+    width: 265px;
+    
+}
+
+#popular{
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    margin-top: 0%;
+}
+
+.brand-name{
+    padding-left: 38%;
+}
+.style-sole{
+    padding-left: 38%;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    gap: 150px
+}
+
+
+
+
+h5{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.size{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.style{
+    color: gray;
+}
+
+
+.cut-price{
+    color: red;
+}
+
+
+
+.shoe-3{
+    border: 2px solid black;
+    border-bottom-color: white;
+    margin-right: 6px;
+}
+.shoe-3:hover{
+  border: 2px solid black;
+}
+
+
+
+#sneaker-heading {
+    color: red;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  }
+
+
+  .free-delivery{
+    line-height: 1px;
+    font-size: small;
+  }
+  
+
+
+  .icon-div{
+    display: flex;
+    justify-content: center;
+    gap: 9%;
+  }
+ 
+
+  .bx-car{
+    color: red;
+  }
+
+  .bx-headphone{
+    color: red;
+  }
+
+
+  .bxs-coin-stack{
+    color: red;
+  }
+
+  .bx-star{
+    color: red;
+  }
+
+  .bx-chevrons-left{
+    color: red;
+  }
+
+  .icon-div{
+    border: 1px solid gray;
+    margin-top: 20px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: auto;
+  }
+
+  .daam{
+    font-size: small;
+  }
+  
+  .offer{
+    width: 500px;
+    margin-top: 10%;
+  }
+
+  .offer-div{
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .shoe-divv{
+    display: flex;
+    justify-content: center;
+  }
+
+  .spacial-add{
+    height: 500px;
+    width: 1100px;
+  }
+
+  .bxs-buildings{
+    color: red;
+  }
+  .bxs-business{
+    color: red;
+  }
+  .bxs-bus{
+    color: red;
+  }
+  .bx-cycling{
+    color: red;
+  }
+  .bxs-ghost{
+    color: red;
+  }
+
+
+  .country{
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 30px;
+  }
+
+  .footer{
+    background: rgb(206, 48, 48);
+    max-height: 500px;
+    min-height: 50px;
+    display: flex;
+    gap: 14%;
+    color: white;
+    margin-top: 20%;
+  }
+
+
+  .paragraph{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    width: 140px;
+    letter-spacing: 1px;   
+    padding: 30px 10px 3px 30px 
+  }
+
+
+  .privacy-button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px;
+  }
+  .privacy-button:hover{
+    border: 2px solid black;
+    padding: 12px;
+    transition-duration: 0.6s;
+  }
+
+  .butn{
+    padding: 20px;
+  }
+
+
+  .our-stores{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+
+  .countree{
+    font-size: x-small;
+  }
+
+  .subscribe{
+    background: green;
+    color: white;
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+  }
+  .subscribe:hover{
+    padding: 12px;
+    transition-duration: 0.6s;
+  }
+
+
+  .input{
+    height: 25px;
+    border: 1px dashed black;
+    background-color: rgb(212, 193, 193);
+  }
+
+
+  .end-point{
+    justify-content: center;
+    display: flex;
+    background-color: rgb(206, 48, 48);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: smaller;
+    color: white;
+  }
+
+
+  .bas{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .bass{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20%;
+  }
+
+
+  .bxl-facebook-circle{
+    color: black;
+  }
+  .bxl-youtube{
+    color: black;
+  }
+  .bxl-instagram-alt{
+    color: black;
+  }
+  .bxl-apple{
+    color: black;
+  }
+  .bxl-tiktok{
+    color: black;
+  }
+  .bxl-google{
+    color: black;
+  }
+  .bxs-right-arrow-alt{
+    color: black;
+  }
