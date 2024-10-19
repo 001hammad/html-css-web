@@ -431,7 +431,7 @@ h5{
 
   
 
-@media only screen and (max-width: 627px) {
+@media only screen and (max-width: 400px) {
 
  #popular{
   flex-direction: column;
