@@ -2,10 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px;
-    background: transparent;
+    padding-right: 8px;
+    /* background: pink; */
     color: #444;
   }
+  /* .nav{display: flex;} */
 
 
   .logo{
@@ -24,8 +25,9 @@
 
 .menu{
     display: flex;
-    padding: 0;
-    margin: 0;
+    /* padding: 0; */
+    /* margin: 0; */
+    
     list-style: none;
 
 }
@@ -70,7 +72,7 @@
 
 
 body{
-    background: white;
+    background: greenyellow;
 }
 
 .mainshoes{
@@ -433,52 +435,74 @@ h5{
 
 @media only screen and (max-width: 400px) {
 
+  .shoe-3{
+    /* border: 2px solid black; */
+    /* border-bottom-color: white; */
+    /* margin-right: 6px; */
+    /* display: flex; */
+    width: 130%;
+}
+
  #popular{
   flex-direction: column;
+  padding-left: 30%;
  }
  
  .navbar{
   display: grid;
+  padding-right: 0%;
  }
 
  .icon-div{
-  flex-direction: column;
-  padding-left: 30px;
+  /* flex-direction: column; */
+  display: flex;
+  margin-left: 40%;
+  font-size: xx-large;
+  /* padding-left: 30px; */
+  
  }
 
  #main{
 
-  justify-content: center;
-  gap: 40px
+  /* justify-content: center; */
+  margin-left: 50%;
+  gap: 60px
+
+  
 }
+
+
+/* .nav{flex-direction: column;} */
 
 .left-container{
   align-items: center;
-  padding-left: 30px;
+  /* padding-left: 30px; */
   margin-top: 80px;
 }
 
 .feature-pics{
   flex-direction: column;
-  justify-content: left;
+  /* margin-left: 20%; */
 }
 
-.pic1{
+/* .pic1{
   margin: 0%;
   float: left;
   margin-bottom: 6px;
-}
+} */
 
 .offer{
-  width: 200px;
+  width: 400px;
   margin-top: 30%;
   margin-bottom: 30%;
+  margin-left: 35%;
   align-items: center;
 }
 
 .spacial-add{
-  height: 200px;
-  width: 300px;
+  height: 400px;
+  width: 500px;
+  margin-left: 50%;
 }
 
 .footer{
@@ -487,29 +511,80 @@ h5{
   gap: 2%;
   margin-top: 2%;
   height: 800px;
-  width: 100%;
+  width: 150%;
+  align-items: center;
 }
 
 .end-point{
   justify-content: center;
-  /* margin-top: 20px; */
-  /* text-overflow: none; */
   flex-direction: column;
-  padding: 30px;
+  width: 150%;
+  
 }
 
 .mainshoes{
-  height: 300px;
+  height: 400px;
+  width: 400px;
 }
 
 .product-1{
-  height: 200px;
-  width: 250px;
+  height: 400px;
+  width: 500px;
   
+}
+
+.owner{
+  text-align: center;
+  margin-top: 3px;
 }
 .product-2{
-  height: 190px;
-  width: 250px;
+  height: 400px;
+  width: 500px;
   
 }
+
+.navbar {
+  font-size: larger;
+}
+
+.logo{
+  display: flex;
+  margin-left: 40%;
+}
+
+.mainshoes{
+  height: 400px;
+  align-items: center;
+  display: inline;
+  margin-top: 10px;
+}
+
+.pic1{
+  width: 148%;
+  margin-bottom: 6px;
+}
+
+.pic2{
+ width: 148%; 
+}
+
+#sneaker-heading {
+  color: black;
+  /* display: flex; */
+  /* justify-content: center; */
+  margin-left: 40%;
+  margin-top: 90px;
+  font-size: larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+#pics{
+  height: 200px;
+  width: 280px;
+  border-radius: 22px;
+  
+}
+
+
 }
